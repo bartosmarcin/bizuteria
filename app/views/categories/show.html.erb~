@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<%= link_to 'Dodaj nową kategorię', new_category_path %> |
+<%= link_to 'Edytuj kategorię', edit_category_path(@category) %> |
+<%= link_to 'Usuń kategorię', @category, :confirm=>"Na pewno?",:method=>:delete %> |
+<br><%= link_to 'Dodaj nowy produkt', new_product_path %>
+
+<p>
+  <b>Kategoria:</b>
+  <%= link_to @category.name, @category %>
+</p>
+  <h3>Produkty:</h3>
+  <% @category.products.each do |product| %>
+    <div class="product">
+      <%= image_tag product.photo.url(:small) %>      
+      <h1><%= link_to product.name, product_path(product) %></h1>      
+    </div>
+  <% end %>
+
+

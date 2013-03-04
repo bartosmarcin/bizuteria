@@ -1,0 +1,5 @@
+<%= form_for(sessions) do |f| %>
+  <div class="field">
+    Hasło: <%= f.text_field :password %>
+  </div>
+<% end %>

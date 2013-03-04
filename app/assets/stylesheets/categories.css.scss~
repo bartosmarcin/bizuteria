@@ -1,0 +1,29 @@
+// Place all the styles related to the Categories controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.productsList{
+}
+
+.product{
+  border-radius: 15px;
+  border: solid 1px;
+  border-color: silver;
+  height: 160px;
+  margin-top: 5px;
+  margin-right:5px;
+  width: 350px;
+  float: left;
+  padding: 5px;
+}
+
+.img{
+  float: left;
+  margin: 7px;
+}
+
+h1{
+  text-align: left;
+  font-size: 15px;
+  float: right;
+}

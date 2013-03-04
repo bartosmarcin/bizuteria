@@ -1,0 +1,32 @@
+.leftmenu{
+  width: 20%;
+  background: none;
+  float: left;
+  text-align: right;
+}
+
+.content{
+  width: 78%;
+  float: right;
+  border-left: solid 1px;
+  padding-left: 10px;
+  min-height: 400px;
+}
+
+.wraper{
+  width: 75%;
+  position: center;
+  margin: 0px auto;
+}
+
+ul
+{
+  list-style-type: none;
+  background-image:url('/assets/img/ulbg.gif');
+  background-repeat:no-repeat;
+  background-position: bottom;
+}
+
+a{
+  text-decoration: none;
+}
